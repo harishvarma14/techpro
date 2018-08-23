@@ -1,0 +1,34 @@
+on server22.hari.com
+we created a user nari
+and cerated a directory tech
+we went to home directory
+cd .ssh
+it shows authorised key, id.rsa ,id_rsa_pub
+go to cd id_rsa_pub
+ls
+copy the public key
+then
+goto browser go to jithub official site
+login with mail and password
+goto new directory
+directory name=techpro
+click on public
+create repository
+on right hand side click setting
+click on ssh and gps
+new ssh key click on
+title =any name ex : seerver22.hari.com
+key= paste the .ssh public key that is copied before
+add ssh key then goto serevr22
+cd tech
+git clone git@github.com:harishvarma14/techpro.git
+ls
+then it shows the projects in git
+goto the required projeth
+git config user
+and mail
+change the required things in ur project
+git add that project
+git commit -m " project by nari"
+git push origin master
+ 
